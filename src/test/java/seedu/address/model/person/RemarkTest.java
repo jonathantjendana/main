@@ -1,11 +1,12 @@
 package seedu.address.model.person;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import org.junit.jupiter.api.Test;
+
 public class RemarkTest {
+
     @Test
     public void equals() {
         Remark remark = new Remark("Hello");
@@ -21,7 +22,7 @@ public class RemarkTest {
         assertFalse(remark.equals(1));
 
         // null -> returns false
-        assertFalse(remark.equals(null));
+        assertFalse(remark == null);
 
         // different remark -> returns false
         Remark differentRemark = new Remark("Bye");

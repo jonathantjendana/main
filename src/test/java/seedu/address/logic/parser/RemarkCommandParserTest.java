@@ -13,8 +13,9 @@ import seedu.address.logic.commands.RemarkCommand;
 import seedu.address.model.person.Remark;
 
 public class RemarkCommandParserTest {
-    private RemarkCommandParser parser = new RemarkCommandParser();
+
     private final String nonEmptyRemark = "Some remark.";
+    private RemarkCommandParser parser = new RemarkCommandParser();
 
     @Test
     public void parse_indexSpecified_success() {
