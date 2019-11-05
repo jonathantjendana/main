@@ -55,7 +55,7 @@ These steps will guide you in installing MoneyGoWhere on your computer.
 
 +
 .User Interface of MoneyGoWhere
-image::Ui.png[width="800"]
+image::Ui.png[width="1000"]
 +
 .  Type the command in the command box and press kbd:[Enter] to execute it. +
 e.g. typing *`help`* will display the help information.
